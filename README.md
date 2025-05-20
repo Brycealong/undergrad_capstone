@@ -7,9 +7,10 @@
 - [R](https://www.r-project.org/)
 - [GNU parallel](https://www.gnu.org/software/parallel/) 
 - [trimmomatic](http://www.usadellab.org/cms/index.php?page=trimmomatic)
+- [HISAT2](https://daehwankimlab.github.io/hisat2/)
 
 ```
-conda install -c bioconda sra-tools samtools trimmomatic
+conda install -c bioconda sra-tools samtools trimmomatic hisat2
 conda install -c conda-forge r-essentials r-base parallel
 ```
 
