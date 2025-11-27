@@ -14,6 +14,8 @@ conda install -c bioconda sra-tools samtools trimmomatic hisat2
 conda install -c conda-forge r-essentials r-base parallel
 ```
 
+The spreadsheet of the metadata of this study is in: https://docs.google.com/spreadsheets/d/1tusEfvgCp4mUn4E8Y3s2XV0iERSjC7R5PibH4COlb3o/edit?usp=sharing
+
 ### Step 1: Data Preprocessing
 
 ```
