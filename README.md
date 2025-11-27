@@ -162,9 +162,9 @@ GSE89692/
 ## Citation
 
 If using this pipeline, please cite:
-- TAPAS: Arefeen et al. (appropriate TAPAS citation)
-- HISAT2: Kim et al. (2015)
-- Other tools as appropriate
+- TAPAS: Ashraful Arefeen, Juntao Liu, Xinshu Xiao, Tao Jiang, TAPAS: tool for alternative polyadenylation site analysis, *Bioinformatics*, Volume 34, Issue 15, August 2018, Pages 2521–2529, https://doi.org/10.1093/bioinformatics/bty110
+- HISAT2: Kim, D., Paggi, J.M., Park, C. *et al.* Graph-based genome alignment and genotyping with HISAT2 and HISAT-genotype. *Nat Biotechnol* **37**, 907–915 (2019). https://doi.org/10.1038/s41587-019-0201-4
+- other appropriate tools if necessary
 
 ## Support
 
