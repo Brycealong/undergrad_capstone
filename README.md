@@ -2,6 +2,10 @@
 
 A modular pipeline for analyzing alternative polyadenylation (APA) in RNA-seq data using TAPAS.
 
+[TOC]
+
+
+
 ## Pipeline Overview
 
 This pipeline is split into 4 independent, runnable scripts:
@@ -74,9 +78,10 @@ GSE89692/
 1. **SRA accession list**: `sra_lists/SRR_Acc_List_GSE89692_vHIP_ELS.txt`
    - One SRR accession per line
    - Automatically constructed from: `SRR_Acc_List_${PROJ_DIR}_${BRAIN_REGION}_${CONDITION}.txt`
+   - you can obtain other SRR runs at: https://www.ncbi.nlm.nih.gov/Traces/study/
 2. **Metadata file**: `sample_metadata.csv`
    - Used for grouping samples in differential analysis
-   - Please download csv through: https://docs.google.com/spreadsheets/d/1tusEfvgCp4mUn4E8Y3s2XV0iERSjC7R5PibH4COlb3o/edit?usp=sharing and rename the file to `sample_metadata.csv`
+   - metadata: https://docs.google.com/spreadsheets/d/1tusEfvgCp4mUn4E8Y3s2XV0iERSjC7R5PibH4COlb3o/edit?usp=sharing. You should download it as a csv file and rename the file to `sample_metadata.csv`
 
 ## Important Parameters
 
@@ -172,3 +177,7 @@ For issues or questions, check:
 - TAPAS documentation: https://github.com/arefeen/TAPAS
 - FastQC manual
 - HISAT2 manual
+
+  
+
+  
