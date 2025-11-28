@@ -2,10 +2,6 @@
 
 A modular pipeline for analyzing alternative polyadenylation (APA) in RNA-seq data using TAPAS.
 
-[TOC]
-
-
-
 ## Pipeline Overview
 
 This pipeline is split into 4 independent, runnable scripts:
