@@ -1,0 +1,26 @@
+#!/bin/bash
+
+#SBATCH --job-name fastq_download-slurm
+
+#SBATCH --partition=hotel
+
+#SBATCH --nodes=1
+
+#SBATCH --ntasks-per-node=1
+
+#SBATCH --time=20:00:00
+
+#SBATCH --account=htl171
+
+#SBATCH --qos=hotel
+
+ 
+
+# Load modules (adjust as necessary for your setup)
+
+module load anaconda3
+
+module load sratoolkit
+
+
+python fastq_download.py
